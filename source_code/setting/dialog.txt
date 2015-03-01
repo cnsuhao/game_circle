@@ -1,0 +1,27 @@
+#NEW LINGMENG
+&WELCOME_SCRIPT 
+%B
+百万巫女
+——博丽灵梦
+%E
+&WELCOME_SAYING 
+%B
+少年，不来一发么？        
+%E
+#END
+
+
+
+
+
+#NEW MOLISHA
+&WELCOME_SCRIPT 
+%B
+后宫王
+——雾雨魔理莎
+%E
+&WELCOME_SAYING 
+%B
+我的把妹秘籍，就放在幻想乡的某处。       
+%E
+#END
