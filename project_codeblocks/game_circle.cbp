@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="game_circle" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/game_circle" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/game_circle" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-std=c++11" />
+			<Add option="-Wall" />
+			<Add directory="include" />
+		</Compiler>
+		<Linker>
+			<Add library="mingw32" />
+			<Add library="SDL2main" />
+			<Add library="SDL2" />
+			<Add library="SDL2_ttf" />
+			<Add library="SDL2_image" />
+			<Add library="opengl32" />
+			<Add library="glu32" />
+			<Add directory="lib" />
+		</Linker>
+		<Unit filename="newframe.cpp" />
+		<Unit filename="p.o/baseclass.h" />
+		<Unit filename="p.o/calculate.h" />
+		<Unit filename="p.o/calculatespace.h" />
+		<Unit filename="p.o/dialog.h" />
+		<Unit filename="p.o/error.h" />
+		<Unit filename="p.o/glsimplify.h" />
+		<Unit filename="p.o/handle.h" />
+		<Unit filename="p.o/information.h" />
+		<Unit filename="p.o/informationpool.h" />
+		<Unit filename="p.o/informationviewer.h" />
+		<Unit filename="p.o/ladle.h" />
+		<Unit filename="p.o/plugin.h" />
+		<Unit filename="p.o/po.h" />
+		<Unit filename="p.o/pobase/gllist.h" />
+		<Unit filename="p.o/pobase/gltexture.h" />
+		<Unit filename="p.o/pobase/glunifydata.h" />
+		<Unit filename="p.o/pobase/language.h" />
+		<Unit filename="p.o/pobase/picturemanager.h" />
+		<Unit filename="p.o/pobase/poaccessorial.h" />
+		<Unit filename="p.o/pobase/pofunctionhanlde.h" />
+		<Unit filename="p.o/pobase/pogi.h" />
+		<Unit filename="p.o/pobase/pogigl.h" />
+		<Unit filename="p.o/pobase/pogigles.h" />
+		<Unit filename="p.o/pobase/pogisdl.h" />
+		<Unit filename="p.o/pobase/pomain.h" />
+		<Unit filename="p.o/pobase/poplugin.h" />
+		<Unit filename="p.o/pobase/popluginimage.h" />
+		<Unit filename="p.o/pobase/popluginttf.h" />
+		<Unit filename="p.o/pobase/sdleventtoinformation.h" />
+		<Unit filename="p.o/poerror.h" />
+		<Unit filename="p.o/popicture.h" />
+		<Unit filename="p.o/poscriptionseparate.h" />
+		<Unit filename="p.o/pottf.h" />
+		<Unit filename="p.o/publicvalue.h" />
+		<Unit filename="p.o/scription/scriptionanalyze.h" />
+		<Unit filename="p.o/scription/scriptionblock.h" />
+		<Unit filename="p.o/scription/scriptioncomment.h" />
+		<Unit filename="p.o/scription/scriptionoperator.h" />
+		<Unit filename="p.o/scription/scriptionseparate.h" />
+		<Unit filename="p.o/scriptionbase.h" />
+		<Unit filename="p.o/sdlimageinit.h" />
+		<Unit filename="p.o/sdlttfinit.h" />
+		<Unit filename="p.o/tank.h" />
+		<Unit filename="p.o/tank/ladle.h" />
+		<Unit filename="p.o/tank/water.h" />
+		<Unit filename="p.o/water.h" />
+		<Unit filename="star/antistar.h" />
+		<Unit filename="star/baihestar.h" />
+		<Unit filename="star/blackstar.h" />
+		<Unit filename="star/doublestarbase.h" />
+		<Unit filename="star/jumpstar.h" />
+		<Unit filename="star/motionstar.h" />
+		<Unit filename="star/movestar.h" />
+		<Unit filename="star/normalstar.h" />
+		<Unit filename="star/partystar.h" />
+		<Unit filename="star/playerstar.h" />
+		<Unit filename="star/regularstar.h" />
+		<Unit filename="star/starbase.h" />
+		<Unit filename="star/starmove.h" />
+		<Unit filename="star/zhexuestar.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

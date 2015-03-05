@@ -1,3 +1,0 @@
-*GpGo [/texture/gogo]
-*Put [/texture/ppic]
-*Tu [/texture/ppic]

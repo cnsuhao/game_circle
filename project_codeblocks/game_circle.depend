@@ -1,0 +1,590 @@
+# depslib dependency file v1.0
+1425557114 source:c:\users\bleedchips\documents\github\game_circle\project_codeblocks\newframe.cpp
+	<fstream>
+	<sstream>
+	<windows.h>
+	<iostream>
+	"p.o/po.h"
+	"p.o/popicture.h"
+	"scene/scene.h"
+	"p.o/baseclass.h"
+	"star/movestar.h"
+	"star/regularstar.h"
+	"p.o/dialog.h"
+	"p.o/scription/scriptionblock.h"
+	"p.o/scription/scriptionanalyze.h"
+	"p.o/popicture.h"
+	"star/motionstar.h"
+	"star/blackstar.h"
+	"star/jumpstar.h"
+	"star/antistar.h"
+	"star/playerstar.h"
+	"star/zhexuestar.h"
+	"star/baihestar.h"
+	"star/partystar.h"
+	"star/normalstar.h"
+
+1425549127 c:\users\bleedchips\documents\github\game_circle\project_codeblocks\p.o\po.h
+	"pobase/pomain.h"
+	"pobase/poaccessorial.h"
+	"poerror.h"
+	"handle.h"
+	"plugin.h"
+	"informationpool.h"
+	"pobase/sdleventtoinformation.h"
+	<map>
+	<string>
+
+1425557154 c:\users\bleedchips\documents\github\game_circle\project_codeblocks\p.o\pobase\pomain.h
+	<string>
+	"../handle.h"
+	<SDL2/SDL.h>
+	<SDL2/SDL_ttf.h>
+	<SDL2/SDL_image.h>
+	<SDL2/SDL_opengles2.h>
+	<GLES2/gl2.h>
+	<SDL2/SDL_opengles.h>
+	<GLES/gl.h>
+	<SDL2/SDL_opengl.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	"../poerror.h"
+	"gltexture.h"
+	"language.h"
+
+1425557392 c:\users\bleedchips\documents\github\game_circle\project_codeblocks\p.o\handle.h
+	<stdio.h>
+
+1425543483 c:\users\bleedchips\documents\github\game_circle\project_codeblocks\include\sdl2\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425543483 c:\users\bleedchips\documents\github\game_circle\project_codeblocks\include\sdl2\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425543483 c:\users\bleedchips\documents\github\game_circle\project_codeblocks\include\sdl2\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<iconv.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1425543483 c:\users\bleedchips\documents\github\game_circle\project_codeblocks\include\sdl2\sdl_config.h
+	"SDL_platform.h"
+
+1425543483 c:\users\bleedchips\documents\github\game_circle\project_codeblocks\include\sdl2\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425543483 c:\users\bleedchips\documents\github\game_circle\project_codeblocks\include\sdl2\begin_code.h
+
+1425543483 c:\users\bleedchips\documents\github\game_circle\project_codeblocks\include\sdl2\close_code.h
+
+1425543483 c:\users\bleedchips\documents\github\game_circle\project_codeblocks\include\sdl2\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1425543483 c:\users\bleedchips\documents\github\game_circle\project_codeblocks\include\sdl2\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425543483 c:\users\bleedchips\documents\github\game_circle\project_codeblocks\include\sdl2\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425543483 c:\users\bleedchips\documents\github\game_circle\project_codeblocks\include\sdl2\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425543483 c:\users\bleedchips\documents\github\game_circle\project_codeblocks\include\sdl2\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1425543483 c:\users\bleedchips\documents\github\game_circle\project_codeblocks\include\sdl2\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425543483 c:\users\bleedchips\documents\github\game_circle\project_codeblocks\include\sdl2\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1425543483 c:\users\bleedchips\documents\github\game_circle\project_codeblocks\include\sdl2\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425543483 c:\users\bleedchips\documents\github\game_circle\project_codeblocks\include\sdl2\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425543483 c:\users\bleedchips\documents\github\game_circle\project_codeblocks\include\sdl2\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<mmintrin.h>
+	<mm3dnow.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1425543483 c:\users\bleedchips\documents\github\game_circle\project_codeblocks\include\sdl2\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425543483 c:\users\bleedchips\documents\github\game_circle\project_codeblocks\include\sdl2\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425543483 c:\users\bleedchips\documents\github\game_circle\project_codeblocks\include\sdl2\sdl_pixels.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425543483 c:\users\bleedchips\documents\github\game_circle\project_codeblocks\include\sdl2\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425543483 c:\users\bleedchips\documents\github\game_circle\project_codeblocks\include\sdl2\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425543483 c:\users\bleedchips\documents\github\game_circle\project_codeblocks\include\sdl2\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1425543483 c:\users\bleedchips\documents\github\game_circle\project_codeblocks\include\sdl2\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425543483 c:\users\bleedchips\documents\github\game_circle\project_codeblocks\include\sdl2\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1425543483 c:\users\bleedchips\documents\github\game_circle\project_codeblocks\include\sdl2\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1425543483 c:\users\bleedchips\documents\github\game_circle\project_codeblocks\include\sdl2\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425543483 c:\users\bleedchips\documents\github\game_circle\project_codeblocks\include\sdl2\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425543483 c:\users\bleedchips\documents\github\game_circle\project_codeblocks\include\sdl2\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425543483 c:\users\bleedchips\documents\github\game_circle\project_codeblocks\include\sdl2\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1425543483 c:\users\bleedchips\documents\github\game_circle\project_codeblocks\include\sdl2\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425543483 c:\users\bleedchips\documents\github\game_circle\project_codeblocks\include\sdl2\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425543483 c:\users\bleedchips\documents\github\game_circle\project_codeblocks\include\sdl2\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425543483 c:\users\bleedchips\documents\github\game_circle\project_codeblocks\include\sdl2\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425543483 c:\users\bleedchips\documents\github\game_circle\project_codeblocks\include\sdl2\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425543483 c:\users\bleedchips\documents\github\game_circle\project_codeblocks\include\sdl2\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425543483 c:\users\bleedchips\documents\github\game_circle\project_codeblocks\include\sdl2\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425543483 c:\users\bleedchips\documents\github\game_circle\project_codeblocks\include\sdl2\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425543483 c:\users\bleedchips\documents\github\game_circle\project_codeblocks\include\sdl2\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425543483 c:\users\bleedchips\documents\github\game_circle\project_codeblocks\include\sdl2\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425543483 c:\users\bleedchips\documents\github\game_circle\project_codeblocks\include\sdl2\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425543483 c:\users\bleedchips\documents\github\game_circle\project_codeblocks\include\sdl2\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425543483 c:\users\bleedchips\documents\github\game_circle\project_codeblocks\include\sdl2\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425543483 c:\users\bleedchips\documents\github\game_circle\project_codeblocks\include\sdl2\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425543483 c:\users\bleedchips\documents\github\game_circle\project_codeblocks\include\sdl2\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425543483 c:\users\bleedchips\documents\github\game_circle\project_codeblocks\include\sdl2\sdl_opengles2.h
+	<OpenGLES/ES2/gl.h>
+	<OpenGLES/ES2/glext.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	<stdint.h>
+	<inttypes.h>
+	<stdint.h>
+
+1425543483 c:\users\bleedchips\documents\github\game_circle\project_codeblocks\include\sdl2\sdl_opengles.h
+	<OpenGLES/ES1/gl.h>
+	<OpenGLES/ES1/glext.h>
+	<GLES/gl.h>
+	<GLES/glext.h>
+
+1425543483 c:\users\bleedchips\documents\github\game_circle\project_codeblocks\include\sdl2\sdl_opengl.h
+	"SDL_config.h"
+	<windows.h>
+	<OpenGL/gl.h>
+	<GL/gl.h>
+	<windows.h>
+	<stddef.h>
+	<inttypes.h>
+	<inttypes.h>
+	<inttypes.h>
+	<stdint.h>
+	<stdint.h>
+	<inttypes.h>
+
+1425543004 c:\users\bleedchips\documents\github\game_circle\project_codeblocks\p.o\poerror.h
+
+1425543004 c:\users\bleedchips\documents\github\game_circle\project_codeblocks\p.o\pobase\gltexture.h
+	"../handle.h"
+	"../information.h"
+	<string>
+
+1425543004 c:\users\bleedchips\documents\github\game_circle\project_codeblocks\p.o\information.h
+	<list>
+	<string>
+	<vector>
+	<map>
+	<SDL2/SDL_events.h>
+	"handle.h"
+	"baseclass.h"
+
+1425543004 c:\users\bleedchips\documents\github\game_circle\project_codeblocks\p.o\baseclass.h
+	<math.h>
+	<fstream>
+
+1425543004 c:\users\bleedchips\documents\github\game_circle\project_codeblocks\p.o\pobase\language.h
+	<string>
+
+1425543004 c:\users\bleedchips\documents\github\game_circle\project_codeblocks\p.o\pobase\poaccessorial.h
+	"../baseclass.h"
+	"../information.h"
+
+1425543004 c:\users\bleedchips\documents\github\game_circle\project_codeblocks\p.o\plugin.h
+	<string>
+	<set>
+	"handle.h"
+	"information.h"
+	"informationviewer.h"
+	"pobase/pomain.h"
+
+1425543004 c:\users\bleedchips\documents\github\game_circle\project_codeblocks\p.o\informationviewer.h
+	"information.h"
+	"tank.h"
+
+1425543004 c:\users\bleedchips\documents\github\game_circle\project_codeblocks\p.o\tank.h
+	"tank/water.h"
+
+1425543004 c:\users\bleedchips\documents\github\game_circle\project_codeblocks\p.o\tank\water.h
+	"../handle.h"
+	"../publicvalue.h"
+
+1425543004 c:\users\bleedchips\documents\github\game_circle\project_codeblocks\p.o\publicvalue.h
+	<SDL2/SDL_mutex.h>
+
+1425543004 c:\users\bleedchips\documents\github\game_circle\project_codeblocks\p.o\informationpool.h
+	<set>
+	"tank.h"
+	"information.h"
+	"informationviewer.h"
+
+1425543004 c:\users\bleedchips\documents\github\game_circle\project_codeblocks\p.o\pobase\sdleventtoinformation.h
+	<SDL2/SDL.h>
+	"../information.h"
+	"../handle.h"
+
+1425543004 c:\users\bleedchips\documents\github\game_circle\project_codeblocks\p.o\popicture.h
+	"pobase/gltexture.h"
+
+1425543004 c:\users\bleedchips\documents\github\game_circle\project_codeblocks\scene\scene.h
+	"scenefile.h"
+	"sceneresource.h"
+	"../p.o/po.h"
+	"../p.o/popicture.h"
+	"../p.o/dialog.h"
+	"../p.o/publicvalue.h"
+	"option.h"
+
+1425543004 c:\users\bleedchips\documents\github\game_circle\project_codeblocks\scene\scenefile.h
+	"../p.o/scription/scriptionseparate.h"
+	"blockcontrol.h"
+	<map>
+	<fstream>
+
+1425543004 c:\users\bleedchips\documents\github\game_circle\project_codeblocks\p.o\scription\scriptionseparate.h
+	<fstream>
+	<string>
+	<map>
+	<list>
+	<fstream>
+	<vector>
+	"scriptionanalyze.h"
+
+1425543004 c:\users\bleedchips\documents\github\game_circle\project_codeblocks\p.o\scription\scriptionanalyze.h
+
+1425543004 c:\users\bleedchips\documents\github\game_circle\project_codeblocks\scene\blockcontrol.h
+	<map>
+	"../p.o/scription/scriptionblock.h"
+
+1425543004 c:\users\bleedchips\documents\github\game_circle\project_codeblocks\p.o\scription\scriptionblock.h
+	"scriptioncomment.h"
+	"../handle.h"
+
+1425543004 c:\users\bleedchips\documents\github\game_circle\project_codeblocks\p.o\scription\scriptioncomment.h
+	"scriptionoperator.h"
+	<fstream>
+
+1425543004 c:\users\bleedchips\documents\github\game_circle\project_codeblocks\p.o\scription\scriptionoperator.h
+	"scriptionseparate.h"
+
+1425543004 c:\users\bleedchips\documents\github\game_circle\project_codeblocks\scene\sceneresource.h
+	"../p.o/scription/scriptionblock.h"
+	"../p.o/pobase/pomain.h"
+
+1425543004 c:\users\bleedchips\documents\github\game_circle\project_codeblocks\p.o\dialog.h
+	"pottf.h"
+	"pobase/pomain.h"
+	"pobase/language.h"
+
+1425557511 c:\users\bleedchips\documents\github\game_circle\project_codeblocks\p.o\pottf.h
+	"pobase/gltexture.h"
+	"baseclass.h"
+
+1425543004 c:\users\bleedchips\documents\github\game_circle\project_codeblocks\scene\option.h
+	"../p.o/dialog.h"
+	"../p.o/publicvalue.h"
+	"../p.o/scription/scriptioncomment.h"
+
+1425543004 c:\users\bleedchips\documents\github\game_circle\project_codeblocks\star\movestar.h
+	"starbase.h"
+	"starmove.h"
+	"../p.o/pottf.h"
+
+1425543004 c:\users\bleedchips\documents\github\game_circle\project_codeblocks\star\starbase.h
+	<math.h>
+	"../p.o/baseclass.h"
+	"../p.o/handle.h"
+	"../p.o/glsimplify.h"
+	"../p.o/pottf.h"
+
+1425543004 c:\users\bleedchips\documents\github\game_circle\project_codeblocks\p.o\glsimplify.h
+	"baseclass.h"
+
+1425543004 c:\users\bleedchips\documents\github\game_circle\project_codeblocks\star\starmove.h
+	"starbase.h"
+
+1425543004 c:\users\bleedchips\documents\github\game_circle\project_codeblocks\star\regularstar.h
+	"starbase.h"
+
+1425543004 c:\users\bleedchips\documents\github\game_circle\project_codeblocks\star\motionstar.h
+	"starbase.h"
+	"regularstar.h"
+
+1425557430 c:\users\bleedchips\documents\github\game_circle\project_codeblocks\star\blackstar.h
+	"doublestarbase.h"
+
+1425543004 c:\users\bleedchips\documents\github\game_circle\project_codeblocks\star\doublestarbase.h
+	"starbase.h"
+
+1425543004 c:\users\bleedchips\documents\github\game_circle\project_codeblocks\star\jumpstar.h
+	"doublestarbase.h"
+
+1425543004 c:\users\bleedchips\documents\github\game_circle\project_codeblocks\star\antistar.h
+	"starbase.h"
+	"regularstar.h"
+	"../p.o/publicvalue.h"
+
+1425543004 c:\users\bleedchips\documents\github\game_circle\project_codeblocks\star\playerstar.h
+	"starbase.h"
+	"starmove.h"
+	"../p.o/pottf.h"
+
+1425543004 c:\users\bleedchips\documents\github\game_circle\project_codeblocks\star\zhexuestar.h
+	"starbase.h"
+
+1425543004 c:\users\bleedchips\documents\github\game_circle\project_codeblocks\star\baihestar.h
+	"starbase.h"
+
+1425543004 c:\users\bleedchips\documents\github\game_circle\project_codeblocks\star\partystar.h
+	"starbase.h"
+
+1425543004 c:\users\bleedchips\documents\github\game_circle\project_codeblocks\star\normalstar.h
+
